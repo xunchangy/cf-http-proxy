@@ -1,0 +1,15 @@
+name = "cf-http-proxy"
+type = "javascript"
+
+account_id = "你的 CF_ACCOUNT_ID"
+workers_dev = true
+compatibility_date = "2023-10-10"
+
+route = ""
+zone_id = ""
+
+[build]
+upload.format = "modules"
+
+[vars]
+# 可添加环境变量
